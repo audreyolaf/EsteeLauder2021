@@ -16,7 +16,7 @@
 		BDC75A1F26B5F9B6005E16A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDC75A1D26B5F9B6005E16A2 /* LaunchScreen.storyboard */; };
 		BDC75A2A26B5F9B6005E16A2 /* EsteeLauder2021Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC75A2926B5F9B6005E16A2 /* EsteeLauder2021Tests.swift */; };
 		BDC75A3526B5F9B6005E16A2 /* EsteeLauder2021UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC75A3426B5F9B6005E16A2 /* EsteeLauder2021UITests.swift */; };
-		BDE7E6ED26BA2A22006D175E /* Scroll1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE7E6EC26BA2A22006D175E /* Scroll1ViewController.swift */; };
+		BDE7E6ED26BA2A22006D175E /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE7E6EC26BA2A22006D175E /* ScrollViewController.swift */; };
 		BDE7E6EF26BA59DA006D175E /* Scroll2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE7E6EE26BA59DA006D175E /* Scroll2ViewController.swift */; };
 		BDE7E6F126BA59FE006D175E /* Scroll3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE7E6F026BA59FE006D175E /* Scroll3ViewController.swift */; };
 		BDE7E6F326BA5A39006D175E /* Scroll4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE7E6F226BA5A39006D175E /* Scroll4ViewController.swift */; };
@@ -56,7 +56,7 @@
 		BDC75A3026B5F9B6005E16A2 /* EsteeLauder2021UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EsteeLauder2021UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDC75A3426B5F9B6005E16A2 /* EsteeLauder2021UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EsteeLauder2021UITests.swift; sourceTree = "<group>"; };
 		BDC75A3626B5F9B6005E16A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BDE7E6EC26BA2A22006D175E /* Scroll1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scroll1ViewController.swift; sourceTree = "<group>"; };
+		BDE7E6EC26BA2A22006D175E /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 		BDE7E6EE26BA59DA006D175E /* Scroll2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scroll2ViewController.swift; sourceTree = "<group>"; };
 		BDE7E6F026BA59FE006D175E /* Scroll3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scroll3ViewController.swift; sourceTree = "<group>"; };
 		BDE7E6F226BA5A39006D175E /* Scroll4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scroll4ViewController.swift; sourceTree = "<group>"; };
@@ -94,7 +94,7 @@
 				BDE7E6F226BA5A39006D175E /* Scroll4ViewController.swift */,
 				BDE7E6F026BA59FE006D175E /* Scroll3ViewController.swift */,
 				BDE7E6EE26BA59DA006D175E /* Scroll2ViewController.swift */,
-				BDE7E6EC26BA2A22006D175E /* Scroll1ViewController.swift */,
+				BDE7E6EC26BA2A22006D175E /* ScrollViewController.swift */,
 				BDEFEB3E26B6692E0056AEBB /* ShadeSelectorViewController.swift */,
 				BDC75A0E26B5F9B5005E16A2 /* EsteeLauder2021 */,
 				BDC75A2826B5F9B6005E16A2 /* EsteeLauder2021Tests */,
@@ -280,7 +280,7 @@
 				BDC75A1426B5F9B5005E16A2 /* ViewController.swift in Sources */,
 				BDC75A1026B5F9B5005E16A2 /* AppDelegate.swift in Sources */,
 				BDE7E6EF26BA59DA006D175E /* Scroll2ViewController.swift in Sources */,
-				BDE7E6ED26BA2A22006D175E /* Scroll1ViewController.swift in Sources */,
+				BDE7E6ED26BA2A22006D175E /* ScrollViewController.swift in Sources */,
 				BDE7E6F326BA5A39006D175E /* Scroll4ViewController.swift in Sources */,
 				BDE7E6F126BA59FE006D175E /* Scroll3ViewController.swift in Sources */,
 				BDEFEB3F26B6692E0056AEBB /* ShadeSelectorViewController.swift in Sources */,

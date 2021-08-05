@@ -14,6 +14,7 @@ class Scroll2ViewController: UIViewController {
     @IBOutlet weak var color3: UIButton!
     @IBOutlet weak var color4: UIButton!
     @IBOutlet weak var mainScrollView: UIScrollView!
+    
     var imageArray = [UIImage]()
     override func viewDidLoad() {
         super.viewDidLoad()
