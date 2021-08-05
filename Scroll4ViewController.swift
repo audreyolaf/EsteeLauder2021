@@ -18,7 +18,7 @@ class Scroll4ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        // shade circles
         color1.layer.cornerRadius = 15
         color2.layer.cornerRadius = 15
         color3.layer.cornerRadius = 15
