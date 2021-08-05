@@ -16,13 +16,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EL_15" translatesAutoresizingMaskIntoConstraints="NO" id="mim-pl-yyb">
-                                <rect key="frame" x="68" y="281" width="278" height="279"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EL_15" translatesAutoresizingMaskIntoConstraints="NO" id="mim-pl-yyb">
+                                <rect key="frame" x="68" y="-92" width="278" height="1080"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H1T-Ig-mGt">
-                                <rect key="frame" x="152" y="532" width="110" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Estée Lauder" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sgg-ta-rYj">
+                                <rect key="frame" x="20" y="104" width="374" height="36"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Double Wear Stay in Place" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dwm-fx-vg7">
+                                <rect key="frame" x="20" y="190" width="374" height="26.5"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="22"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UFo-Bl-1iQ">
+                                <rect key="frame" x="20" y="622.5" width="374" height="95"/>
+                                <string key="text">Go way beyond the match with shades
+that enhance the unique beauty of your skin.
+Luxurious, cashmere matte finish.</string>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H1T-Ig-mGt">
+                                <rect key="frame" x="150" y="566.5" width="114" height="36"/>
                                 <color key="backgroundColor" red="0.085689021480000002" green="0.20017761100000001" blue="0.63991874820000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
                                 <state key="normal" title="See More">
@@ -32,33 +51,27 @@
                                     <segue destination="6Bx-Sy-zk0" kind="show" id="Lmy-wb-7K8"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UFo-Bl-1iQ">
-                                <rect key="frame" x="102" y="610" width="211" height="161"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Go way beyond the match with shades
-that enhance the unique beauty of your skin.
-Luxurious, cashmere matte finish.</string>
-                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Estée Lauder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sgg-ta-rYj">
-                                <rect key="frame" x="124" y="101" width="166" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Double Wear Stay in Place" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dwm-fx-vg7">
-                                <rect key="frame" x="68" y="180" width="278" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="22"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sgg-ta-rYj" secondAttribute="trailing" constant="20" id="50w-3d-64E"/>
+                            <constraint firstItem="H1T-Ig-mGt" firstAttribute="top" secondItem="dwm-fx-vg7" secondAttribute="bottom" constant="350" id="5pU-96-hVI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="H1T-Ig-mGt" secondAttribute="trailing" constant="150" id="AX6-ZG-yqj"/>
+                            <constraint firstItem="sgg-ta-rYj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="B62-vi-vhv"/>
+                            <constraint firstItem="dwm-fx-vg7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="JK4-Go-f2N"/>
+                            <constraint firstItem="dwm-fx-vg7" firstAttribute="top" secondItem="sgg-ta-rYj" secondAttribute="bottom" constant="50" id="KuC-dy-x18"/>
+                            <constraint firstItem="UFo-Bl-1iQ" firstAttribute="top" secondItem="H1T-Ig-mGt" secondAttribute="bottom" constant="20" id="MEt-eo-ylL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UFo-Bl-1iQ" secondAttribute="trailing" constant="20" id="TBQ-IX-4tM"/>
+                            <constraint firstItem="UFo-Bl-1iQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="VjJ-II-Q0R"/>
+                            <constraint firstItem="mim-pl-yyb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="ajP-as-65C"/>
+                            <constraint firstItem="H1T-Ig-mGt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="150" id="gjx-ys-wog"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mim-pl-yyb" secondAttribute="trailing" constant="68" id="gr0-py-qLk"/>
+                            <constraint firstItem="mim-pl-yyb" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="hS8-r0-JHf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dwm-fx-vg7" secondAttribute="trailing" constant="20" id="iLx-z7-PRK"/>
+                            <constraint firstItem="sgg-ta-rYj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="uQH-x6-Lay"/>
+                            <constraint firstItem="mim-pl-yyb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wyH-bv-FKa"/>
+                        </constraints>
                     </view>
                     <connections>
                         <segue destination="6Bx-Sy-zk0" kind="show" id="qIx-FH-1J8"/>
@@ -239,34 +252,30 @@ Stay-in-Place Foundation</string>
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Estée Lauder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Tg-pw-ftP">
-                                <rect key="frame" x="131" y="61" width="166" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Estée Lauder" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Tg-pw-ftP">
+                                <rect key="frame" x="20" y="60" width="374" height="36"/>
                                 <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mT2-Nr-fto">
-                                <rect key="frame" x="73" y="700" width="126" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mT2-Nr-fto">
+                                <rect key="frame" x="70" y="712" width="91" height="36"/>
                                 <color key="backgroundColor" red="0.085689021480000002" green="0.20017761100000001" blue="0.63991874820000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
                                 <state key="normal" title="Shop Now">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5eD-2Q-CDt">
-                                <rect key="frame" x="222" y="700" width="126" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5eD-2Q-CDt">
+                                <rect key="frame" x="249" y="712" width="99" height="36"/>
                                 <color key="backgroundColor" red="0.085689021480000002" green="0.20017761100000001" blue="0.63991874820000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
                                 <state key="normal" title="Add to Cart">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3O6-XS-Zdr">
-                                <rect key="frame" x="101" y="105" width="227" height="67"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3O6-XS-Zdr">
+                                <rect key="frame" x="20" y="105" width="374" height="47.5"/>
                                 <string key="text">Double Wear
 Stay-in-Place Foundation</string>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
@@ -320,9 +329,31 @@ Stay-in-Place Foundation</string>
                                     <segue destination="6Z8-Kg-ZNU" kind="show" id="O2e-x3-wUr"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scroll to View More &gt;&gt;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kmj-RJ-Nn4">
+                                <rect key="frame" x="20" y="680" width="374" height="24"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="LJE-FI-tpG"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="LJE-FI-tpG" firstAttribute="trailing" secondItem="kmj-RJ-Nn4" secondAttribute="trailing" constant="20" id="0j2-bL-WcA"/>
+                            <constraint firstItem="kmj-RJ-Nn4" firstAttribute="leading" secondItem="LJE-FI-tpG" secondAttribute="leading" constant="20" id="0tb-vZ-TYE"/>
+                            <constraint firstItem="LJE-FI-tpG" firstAttribute="trailing" secondItem="5eD-2Q-CDt" secondAttribute="trailing" constant="66" id="5pg-zg-23g"/>
+                            <constraint firstItem="mT2-Nr-fto" firstAttribute="top" secondItem="kmj-RJ-Nn4" secondAttribute="bottom" constant="8" symbolic="YES" id="Ge9-TK-Fto"/>
+                            <constraint firstItem="5eD-2Q-CDt" firstAttribute="leading" secondItem="mT2-Nr-fto" secondAttribute="trailing" constant="88" id="Iub-2d-Vm7"/>
+                            <constraint firstItem="LJE-FI-tpG" firstAttribute="bottom" secondItem="5eD-2Q-CDt" secondAttribute="bottom" constant="60" id="QkS-Ny-4uX"/>
+                            <constraint firstItem="LJE-FI-tpG" firstAttribute="trailing" secondItem="2Tg-pw-ftP" secondAttribute="trailing" constant="20" id="TC4-E9-qoq"/>
+                            <constraint firstItem="LJE-FI-tpG" firstAttribute="trailing" secondItem="3O6-XS-Zdr" secondAttribute="trailing" constant="20" id="UkV-Ce-xkf"/>
+                            <constraint firstItem="LJE-FI-tpG" firstAttribute="bottom" secondItem="mT2-Nr-fto" secondAttribute="bottom" constant="60" id="dlh-kq-xcf"/>
+                            <constraint firstItem="2Tg-pw-ftP" firstAttribute="top" secondItem="LJE-FI-tpG" secondAttribute="top" constant="60" id="fdR-uC-Eil"/>
+                            <constraint firstItem="3O6-XS-Zdr" firstAttribute="top" secondItem="2Tg-pw-ftP" secondAttribute="bottom" constant="9" id="lNj-ws-keM"/>
+                            <constraint firstItem="3O6-XS-Zdr" firstAttribute="leading" secondItem="LJE-FI-tpG" secondAttribute="leading" constant="20" id="mmp-5d-rd7"/>
+                            <constraint firstItem="mT2-Nr-fto" firstAttribute="leading" secondItem="LJE-FI-tpG" secondAttribute="leading" constant="70" id="qv0-LJ-bQB"/>
+                            <constraint firstItem="2Tg-pw-ftP" firstAttribute="leading" secondItem="LJE-FI-tpG" secondAttribute="leading" constant="20" id="t9q-ol-L1o"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="GLC-Uy-KbD"/>
                     <connections>
@@ -335,7 +366,7 @@ Stay-in-Place Foundation</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y67-jP-fDU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1783" y="-350"/>
+            <point key="canvasLocation" x="1782.608695652174" y="-350.22321428571428"/>
         </scene>
         <!--Scroll3 View Controller-->
         <scene sceneID="q8Z-8x-nOi">
@@ -351,16 +382,14 @@ Stay-in-Place Foundation</string>
                                 <viewLayoutGuide key="contentLayoutGuide" id="F97-xX-Vdu"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="Gys-KX-Gdb"/>
                             </scrollView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Estée Lauder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5XS-U9-Ott">
-                                <rect key="frame" x="124" y="58" width="166" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Estée Lauder" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5XS-U9-Ott">
+                                <rect key="frame" x="20" y="60" width="374" height="36"/>
                                 <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xIE-IK-afd">
-                                <rect key="frame" x="94" y="102" width="227" height="67"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xIE-IK-afd">
+                                <rect key="frame" x="20" y="105" width="374" height="47.5"/>
                                 <string key="text">Double Wear
 Stay-in-Place Foundation</string>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
@@ -408,27 +437,47 @@ Stay-in-Place Foundation</string>
                                     <segue destination="6Z8-Kg-ZNU" kind="show" id="8xW-Ak-hFl"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZRk-hu-9Ar">
-                                <rect key="frame" x="70" y="702" width="126" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZRk-hu-9Ar">
+                                <rect key="frame" x="70" y="712" width="91" height="36"/>
                                 <color key="backgroundColor" red="0.085689021480000002" green="0.20017761100000001" blue="0.63991874820000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
                                 <state key="normal" title="Shop Now">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qd2-Af-pBO">
-                                <rect key="frame" x="218" y="702" width="126" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qd2-Af-pBO">
+                                <rect key="frame" x="245" y="712" width="99" height="36"/>
                                 <color key="backgroundColor" red="0.085689021480000002" green="0.20017761100000001" blue="0.63991874820000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
                                 <state key="normal" title="Add to Cart">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scroll to View More &gt;&gt;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UB2-qA-c61">
+                                <rect key="frame" x="20" y="680" width="374" height="24"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="e8e-nF-kGx"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ZRk-hu-9Ar" firstAttribute="top" secondItem="UB2-qA-c61" secondAttribute="bottom" constant="8" symbolic="YES" id="38V-lY-Rbm"/>
+                            <constraint firstItem="xIE-IK-afd" firstAttribute="top" secondItem="5XS-U9-Ott" secondAttribute="bottom" constant="9" id="3bp-d5-Niq"/>
+                            <constraint firstItem="qd2-Af-pBO" firstAttribute="leading" secondItem="ZRk-hu-9Ar" secondAttribute="trailing" constant="84" id="7bA-BY-Ozy"/>
+                            <constraint firstItem="e8e-nF-kGx" firstAttribute="trailing" secondItem="UB2-qA-c61" secondAttribute="trailing" constant="20" id="DjE-jL-hP2"/>
+                            <constraint firstItem="e8e-nF-kGx" firstAttribute="trailing" secondItem="5XS-U9-Ott" secondAttribute="trailing" constant="20" id="Oph-Xl-BTL"/>
+                            <constraint firstItem="e8e-nF-kGx" firstAttribute="bottom" secondItem="ZRk-hu-9Ar" secondAttribute="bottom" constant="60" id="QYX-2O-KKU"/>
+                            <constraint firstItem="UB2-qA-c61" firstAttribute="leading" secondItem="e8e-nF-kGx" secondAttribute="leading" constant="20" id="RTH-VH-WzU"/>
+                            <constraint firstItem="e8e-nF-kGx" firstAttribute="trailing" secondItem="qd2-Af-pBO" secondAttribute="trailing" constant="70" id="YWU-Ks-DAV"/>
+                            <constraint firstItem="e8e-nF-kGx" firstAttribute="bottom" secondItem="qd2-Af-pBO" secondAttribute="bottom" constant="60" id="ePH-lb-0Qc"/>
+                            <constraint firstItem="e8e-nF-kGx" firstAttribute="trailing" secondItem="xIE-IK-afd" secondAttribute="trailing" constant="20" id="i4Y-ds-82j"/>
+                            <constraint firstItem="5XS-U9-Ott" firstAttribute="leading" secondItem="e8e-nF-kGx" secondAttribute="leading" constant="20" id="j2K-33-4F5"/>
+                            <constraint firstItem="5XS-U9-Ott" firstAttribute="top" secondItem="e8e-nF-kGx" secondAttribute="top" constant="60" id="j3b-xv-8mi"/>
+                            <constraint firstItem="ZRk-hu-9Ar" firstAttribute="leading" secondItem="e8e-nF-kGx" secondAttribute="leading" constant="70" id="pam-Yk-ege"/>
+                            <constraint firstItem="xIE-IK-afd" firstAttribute="leading" secondItem="e8e-nF-kGx" secondAttribute="leading" constant="20" id="xLK-un-coG"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="hx8-Zf-F3t"/>
                     <connections>
@@ -441,7 +490,7 @@ Stay-in-Place Foundation</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w1g-D9-6Ao" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1783" y="362"/>
+            <point key="canvasLocation" x="1782.608695652174" y="361.60714285714283"/>
         </scene>
         <!--Scroll4 View Controller-->
         <scene sceneID="TRv-oB-Nns">
@@ -451,16 +500,14 @@ Stay-in-Place Foundation</string>
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Estée Lauder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XGW-tb-UBH">
-                                <rect key="frame" x="124" y="65" width="166" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Estée Lauder" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XGW-tb-UBH">
+                                <rect key="frame" x="20" y="70" width="374" height="36"/>
                                 <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fyg-Od-Puz">
-                                <rect key="frame" x="94" y="109" width="227" height="67"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fyg-Od-Puz">
+                                <rect key="frame" x="20" y="115" width="374" height="47.5"/>
                                 <string key="text">Double Wear
 Stay-in-Place Foundation</string>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
@@ -473,18 +520,16 @@ Stay-in-Place Foundation</string>
                                 <viewLayoutGuide key="contentLayoutGuide" id="ayD-ll-lZa"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="XLw-JL-frH"/>
                             </scrollView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dc4-ZF-7Wf">
-                                <rect key="frame" x="70" y="701" width="126" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dc4-ZF-7Wf">
+                                <rect key="frame" x="70" y="712" width="91" height="36"/>
                                 <color key="backgroundColor" red="0.085689021480000002" green="0.20017761100000001" blue="0.63991874820000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
                                 <state key="normal" title="Shop Now">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ymP-8U-Yxw">
-                                <rect key="frame" x="218" y="701" width="126" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ymP-8U-Yxw">
+                                <rect key="frame" x="245" y="712" width="99" height="36"/>
                                 <color key="backgroundColor" red="0.085689021480000002" green="0.20017761100000001" blue="0.63991874820000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
                                 <state key="normal" title="Add to Cart">
@@ -532,11 +577,32 @@ Stay-in-Place Foundation</string>
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scroll to View More &gt;&gt;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a5B-zc-aev">
+                                <rect key="frame" x="20" y="680" width="374" height="24"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="iI1-jN-XVi"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="a5B-zc-aev" firstAttribute="leading" secondItem="iI1-jN-XVi" secondAttribute="leading" constant="20" id="2NB-Qp-crb"/>
+                            <constraint firstItem="Dc4-ZF-7Wf" firstAttribute="leading" secondItem="iI1-jN-XVi" secondAttribute="leading" constant="70" id="9A4-a4-32n"/>
+                            <constraint firstItem="iI1-jN-XVi" firstAttribute="bottom" secondItem="ymP-8U-Yxw" secondAttribute="bottom" constant="60" id="FzL-N3-hOC"/>
+                            <constraint firstItem="iI1-jN-XVi" firstAttribute="trailing" secondItem="Fyg-Od-Puz" secondAttribute="trailing" constant="20" id="NCs-OG-pLo"/>
+                            <constraint firstItem="ymP-8U-Yxw" firstAttribute="leading" secondItem="Dc4-ZF-7Wf" secondAttribute="trailing" constant="84" id="Pjp-g2-Vi9"/>
+                            <constraint firstItem="Fyg-Od-Puz" firstAttribute="top" secondItem="XGW-tb-UBH" secondAttribute="bottom" constant="9" id="TUj-ha-vvR"/>
+                            <constraint firstItem="XGW-tb-UBH" firstAttribute="leading" secondItem="iI1-jN-XVi" secondAttribute="leading" constant="20" id="Vml-d5-mTR"/>
+                            <constraint firstItem="iI1-jN-XVi" firstAttribute="trailing" secondItem="ymP-8U-Yxw" secondAttribute="trailing" constant="70" id="bZU-e5-icq"/>
+                            <constraint firstItem="iI1-jN-XVi" firstAttribute="bottom" secondItem="Dc4-ZF-7Wf" secondAttribute="bottom" constant="60" id="blY-C5-HRW"/>
+                            <constraint firstItem="Fyg-Od-Puz" firstAttribute="leading" secondItem="iI1-jN-XVi" secondAttribute="leading" constant="20" id="eJE-eD-Y47"/>
+                            <constraint firstItem="Dc4-ZF-7Wf" firstAttribute="top" secondItem="a5B-zc-aev" secondAttribute="bottom" constant="8" symbolic="YES" id="gNg-A7-y6V"/>
+                            <constraint firstItem="XGW-tb-UBH" firstAttribute="top" secondItem="iI1-jN-XVi" secondAttribute="top" constant="70" id="muC-Me-6nf"/>
+                            <constraint firstItem="iI1-jN-XVi" firstAttribute="trailing" secondItem="a5B-zc-aev" secondAttribute="trailing" constant="20" id="rLI-M9-PSr"/>
+                            <constraint firstItem="iI1-jN-XVi" firstAttribute="trailing" secondItem="XGW-tb-UBH" secondAttribute="trailing" constant="20" id="wE7-sd-FI4"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="FTN-Md-uI7"/>
                     <connections>
                         <outlet property="color1" destination="Dr6-VG-iRL" id="Lu5-NV-RdR"/>
                         <outlet property="color2" destination="gTq-Si-2gv" id="A60-tC-mun"/>
@@ -547,7 +613,7 @@ Stay-in-Place Foundation</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IEX-ey-MFy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2525" y="362"/>
+            <point key="canvasLocation" x="2524.6376811594205" y="361.60714285714283"/>
         </scene>
         <!--Scroll2 View Controller-->
         <scene sceneID="xPu-15-a7T">
@@ -557,16 +623,14 @@ Stay-in-Place Foundation</string>
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Estée Lauder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZUu-Mf-3fx">
-                                <rect key="frame" x="124" y="60" width="166" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Estée Lauder" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZUu-Mf-3fx">
+                                <rect key="frame" x="20" y="60" width="374" height="36"/>
                                 <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j1L-r3-PIh">
-                                <rect key="frame" x="94" y="104" width="227" height="67"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j1L-r3-PIh">
+                                <rect key="frame" x="20" y="105" width="374" height="47.5"/>
                                 <string key="text">Double Wear
 Stay-in-Place Foundation</string>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
@@ -579,18 +643,16 @@ Stay-in-Place Foundation</string>
                                 <viewLayoutGuide key="contentLayoutGuide" id="CAs-YW-UPi"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="MkL-pM-NtO"/>
                             </scrollView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zcY-iM-UXI">
-                                <rect key="frame" x="70" y="703" width="126" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zcY-iM-UXI">
+                                <rect key="frame" x="70" y="712" width="91" height="36"/>
                                 <color key="backgroundColor" red="0.085689021480000002" green="0.20017761100000001" blue="0.63991874820000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
                                 <state key="normal" title="Shop Now">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WAe-T9-2N0">
-                                <rect key="frame" x="219" y="703" width="126" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WAe-T9-2N0">
+                                <rect key="frame" x="245" y="712" width="99" height="36"/>
                                 <color key="backgroundColor" red="0.085689021480000002" green="0.20017761100000001" blue="0.63991874820000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
                                 <state key="normal" title="Add to Cart">
@@ -638,9 +700,29 @@ Stay-in-Place Foundation</string>
                                     <segue destination="6Z8-Kg-ZNU" kind="show" id="mBa-ic-7VD"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Scroll to View More &gt;&gt;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pc3-0T-6S4">
+                                <rect key="frame" x="20" y="671" width="374" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="8jG-FI-gJv"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8jG-FI-gJv" firstAttribute="trailing" secondItem="ZUu-Mf-3fx" secondAttribute="trailing" constant="20" id="1m7-hN-egv"/>
+                            <constraint firstItem="8jG-FI-gJv" firstAttribute="trailing" secondItem="WAe-T9-2N0" secondAttribute="trailing" constant="70" id="2a2-dz-HPg"/>
+                            <constraint firstItem="ZUu-Mf-3fx" firstAttribute="top" secondItem="8jG-FI-gJv" secondAttribute="top" constant="60" id="KRb-IU-tjg"/>
+                            <constraint firstItem="j1L-r3-PIh" firstAttribute="top" secondItem="ZUu-Mf-3fx" secondAttribute="bottom" constant="9" id="Lpg-oB-0II"/>
+                            <constraint firstItem="ZUu-Mf-3fx" firstAttribute="leading" secondItem="8jG-FI-gJv" secondAttribute="leading" constant="20" id="OUY-BW-JZP"/>
+                            <constraint firstItem="j1L-r3-PIh" firstAttribute="leading" secondItem="8jG-FI-gJv" secondAttribute="leading" constant="20" id="OY0-1j-99Q"/>
+                            <constraint firstItem="8jG-FI-gJv" firstAttribute="bottom" secondItem="WAe-T9-2N0" secondAttribute="bottom" constant="60" id="Sdx-zo-r2r"/>
+                            <constraint firstItem="zcY-iM-UXI" firstAttribute="leading" secondItem="8jG-FI-gJv" secondAttribute="leading" constant="70" id="VCh-Zn-yKP"/>
+                            <constraint firstItem="WAe-T9-2N0" firstAttribute="leading" secondItem="zcY-iM-UXI" secondAttribute="trailing" constant="84" id="g7G-Cz-VMn"/>
+                            <constraint firstItem="8jG-FI-gJv" firstAttribute="bottom" secondItem="zcY-iM-UXI" secondAttribute="bottom" constant="60" id="nBM-e4-4zb"/>
+                            <constraint firstItem="8jG-FI-gJv" firstAttribute="trailing" secondItem="j1L-r3-PIh" secondAttribute="trailing" constant="20" id="zDu-9d-Xak"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="6KE-Xg-9NQ"/>
                     <connections>
@@ -727,20 +809,21 @@ Stay-in-Place Foundation</string>
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Estée Lauder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rYn-gn-fJf">
-                                <rect key="frame" x="124" y="63" width="166" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Estée Lauder" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rYn-gn-fJf">
+                                <rect key="frame" x="20" y="60" width="374" height="36"/>
                                 <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EL_1" translatesAutoresizingMaskIntoConstraints="NO" id="f95-6R-DNQ">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="EL_1" translatesAutoresizingMaskIntoConstraints="NO" id="f95-6R-DNQ">
                                 <rect key="frame" x="36" y="251" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="DIq-7l-sDa"/>
+                                    <constraint firstAttribute="width" constant="150" id="eV9-kE-IRH"/>
+                                </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vdc-C1-v5H">
-                                <rect key="frame" x="53" y="375" width="116" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vdc-C1-v5H">
+                                <rect key="frame" x="53" y="375" width="116" height="36"/>
                                 <color key="backgroundColor" red="0.085689021480000002" green="0.20017761100000001" blue="0.63991874820000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
                                 <state key="normal" title="Shop Now">
@@ -750,33 +833,29 @@ Stay-in-Place Foundation</string>
                                     <segue destination="IhW-UW-iqf" kind="show" id="erg-rU-okM"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EL_3" translatesAutoresizingMaskIntoConstraints="NO" id="ASI-Of-7vE">
-                                <rect key="frame" x="36" y="478" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EL_3" translatesAutoresizingMaskIntoConstraints="NO" id="ASI-Of-7vE">
+                                <rect key="frame" x="36" y="478" width="156" height="155"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="156" id="geC-Wa-Q4R"/>
+                                    <constraint firstAttribute="height" constant="155" id="qAG-5t-Sud"/>
+                                </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EL_12" translatesAutoresizingMaskIntoConstraints="NO" id="Y9s-ik-j9y">
-                                <rect key="frame" x="230" y="251" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EL_12" translatesAutoresizingMaskIntoConstraints="NO" id="Y9s-ik-j9y">
+                                <rect key="frame" x="230" y="253.5" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="Tru-SH-Zb4"/>
+                                    <constraint firstAttribute="height" constant="150" id="x27-Bx-TIv"/>
+                                </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P4J-am-JbB">
-                                <rect key="frame" x="249" y="375" width="116" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.085689021480000002" green="0.20017761100000001" blue="0.63991874820000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
-                                <state key="normal" title="Shop Now">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="t56-Ie-yLC" kind="show" id="XHk-ca-KjC"/>
-                                </connections>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EL_11" translatesAutoresizingMaskIntoConstraints="NO" id="X3e-6p-ydw">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EL_11" translatesAutoresizingMaskIntoConstraints="NO" id="X3e-6p-ydw">
                                 <rect key="frame" x="230" y="478" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="6DP-Bg-wha"/>
+                                    <constraint firstAttribute="height" constant="150" id="KIU-1h-AxJ"/>
+                                </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fGe-dT-YmR">
-                                <rect key="frame" x="249" y="607" width="116" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fGe-dT-YmR">
+                                <rect key="frame" x="250" y="607" width="111" height="36"/>
                                 <color key="backgroundColor" red="0.085689021480000002" green="0.20017761100000001" blue="0.63991874820000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
                                 <state key="normal" title="Shop Now">
@@ -786,9 +865,27 @@ Stay-in-Place Foundation</string>
                                     <segue destination="6Z8-Kg-ZNU" kind="show" id="KQ3-pa-PDK"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wHJ-fa-11e">
-                                <rect key="frame" x="53" y="607" width="116" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="618-5Z-IaH">
+                                <rect key="frame" x="20" y="136" width="374" height="47.5"/>
+                                <string key="text">Double Wear
+Stay-in-Place Foundation</string>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P4J-am-JbB">
+                                <rect key="frame" x="250" y="375" width="111" height="36"/>
+                                <color key="backgroundColor" red="0.085689021480000002" green="0.20017761100000001" blue="0.63991874820000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                <state key="normal" title="Shop Now">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="t56-Ie-yLC" kind="show" id="XHk-ca-KjC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wHJ-fa-11e">
+                                <rect key="frame" x="53" y="607" width="116" height="36"/>
                                 <color key="backgroundColor" red="0.085689021480000002" green="0.20017761100000001" blue="0.63991874820000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
                                 <state key="normal" title="Shop Now">
@@ -798,24 +895,40 @@ Stay-in-Place Foundation</string>
                                     <segue destination="vzo-Yo-PMS" kind="show" id="6WE-1P-MIN"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="618-5Z-IaH">
-                                <rect key="frame" x="94" y="120" width="227" height="67"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Double Wear
-Stay-in-Place Foundation</string>
-                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="uR5-ZL-j8D"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Vdc-C1-v5H" firstAttribute="leading" secondItem="uR5-ZL-j8D" secondAttribute="leading" constant="53" id="06N-A7-93J"/>
+                            <constraint firstItem="uR5-ZL-j8D" firstAttribute="bottom" secondItem="ASI-Of-7vE" secondAttribute="bottom" constant="175" id="1Py-ii-sKY"/>
+                            <constraint firstItem="f95-6R-DNQ" firstAttribute="top" secondItem="618-5Z-IaH" secondAttribute="bottom" constant="70" id="1wG-yt-D0b"/>
+                            <constraint firstItem="uR5-ZL-j8D" firstAttribute="trailing" secondItem="Y9s-ik-j9y" secondAttribute="trailing" constant="34" id="3Jv-V9-TU0"/>
+                            <constraint firstItem="uR5-ZL-j8D" firstAttribute="trailing" secondItem="rYn-gn-fJf" secondAttribute="trailing" constant="20" id="JJr-qL-HC3"/>
+                            <constraint firstItem="618-5Z-IaH" firstAttribute="top" secondItem="rYn-gn-fJf" secondAttribute="bottom" constant="40" id="Jc6-5t-8Og"/>
+                            <constraint firstItem="Y9s-ik-j9y" firstAttribute="top" secondItem="618-5Z-IaH" secondAttribute="bottom" constant="70" id="KlV-l1-Bvt"/>
+                            <constraint firstItem="rYn-gn-fJf" firstAttribute="leading" secondItem="uR5-ZL-j8D" secondAttribute="leading" constant="20" id="LYB-q1-0bq"/>
+                            <constraint firstItem="wHJ-fa-11e" firstAttribute="top" secondItem="Vdc-C1-v5H" secondAttribute="bottom" constant="196" id="Mg6-Fx-0ag"/>
+                            <constraint firstItem="wHJ-fa-11e" firstAttribute="leading" secondItem="uR5-ZL-j8D" secondAttribute="leading" constant="53" id="Rrv-9d-FRD"/>
+                            <constraint firstItem="X3e-6p-ydw" firstAttribute="leading" secondItem="wHJ-fa-11e" secondAttribute="trailing" constant="73" id="TFM-OA-LWY"/>
+                            <constraint firstItem="uR5-ZL-j8D" firstAttribute="trailing" secondItem="X3e-6p-ydw" secondAttribute="trailing" constant="34" id="ToH-0z-DbV"/>
+                            <constraint firstItem="Vdc-C1-v5H" firstAttribute="top" secondItem="618-5Z-IaH" secondAttribute="bottom" constant="191.5" id="Tvn-vC-pYD"/>
+                            <constraint firstItem="ASI-Of-7vE" firstAttribute="leading" secondItem="uR5-ZL-j8D" secondAttribute="leading" constant="36" id="XgT-NU-NUc"/>
+                            <constraint firstItem="f95-6R-DNQ" firstAttribute="leading" secondItem="uR5-ZL-j8D" secondAttribute="leading" constant="36" id="e54-SP-VQ3"/>
+                            <constraint firstItem="X3e-6p-ydw" firstAttribute="top" secondItem="P4J-am-JbB" secondAttribute="bottom" constant="67" id="eh9-di-MWI"/>
+                            <constraint firstItem="uR5-ZL-j8D" firstAttribute="trailing" secondItem="fGe-dT-YmR" secondAttribute="trailing" constant="49" id="fJD-cm-E1D"/>
+                            <constraint firstItem="618-5Z-IaH" firstAttribute="leading" secondItem="uR5-ZL-j8D" secondAttribute="leading" constant="20" id="irF-F6-eOg"/>
+                            <constraint firstItem="fGe-dT-YmR" firstAttribute="top" secondItem="P4J-am-JbB" secondAttribute="bottom" constant="196" id="jLx-LE-QnS"/>
+                            <constraint firstItem="uR5-ZL-j8D" firstAttribute="trailing" secondItem="P4J-am-JbB" secondAttribute="trailing" constant="49" id="lP7-3D-VgG"/>
+                            <constraint firstItem="Y9s-ik-j9y" firstAttribute="leading" secondItem="Vdc-C1-v5H" secondAttribute="trailing" constant="61" id="m4e-Ob-Pnb"/>
+                            <constraint firstItem="uR5-ZL-j8D" firstAttribute="trailing" secondItem="618-5Z-IaH" secondAttribute="trailing" constant="20" id="mqd-YI-nzg"/>
+                            <constraint firstItem="P4J-am-JbB" firstAttribute="top" secondItem="618-5Z-IaH" secondAttribute="bottom" constant="191.5" id="pTo-7e-Zy5"/>
+                            <constraint firstItem="rYn-gn-fJf" firstAttribute="top" secondItem="uR5-ZL-j8D" secondAttribute="top" constant="60" id="sea-EU-vUj"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="HwZ-YA-Gqi"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y5l-Ap-eMo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="887" y="78"/>
+            <point key="canvasLocation" x="886.95652173913049" y="77.678571428571431"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="V1R-j1-Qgl">
@@ -948,10 +1061,10 @@ Stay-in-Place Foundation</string>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="Lmy-wb-7K8"/>
-        <segue reference="gj5-Gr-NCt"/>
-        <segue reference="O2e-x3-wUr"/>
-        <segue reference="9mG-0C-dlt"/>
-        <segue reference="TPY-TJ-tpW"/>
+        <segue reference="XHk-ca-KjC"/>
+        <segue reference="KQ3-pa-PDK"/>
+        <segue reference="6WE-1P-MIN"/>
+        <segue reference="erg-rU-okM"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="EL_1" width="1080" height="1080"/>

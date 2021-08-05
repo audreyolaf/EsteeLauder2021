@@ -14,6 +14,7 @@ class ScrollViewController: UIViewController {
     @IBOutlet weak var color3: UIButton!
     @IBOutlet weak var color4: UIButton!
     @IBOutlet weak var mainScrollView: UIScrollView!
+//    @IBOutlet weak var imageIndicator: UILabel!
     var imageArray = [UIImage]()
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,6 +36,7 @@ class ScrollViewController: UIViewController {
             
             mainScrollView.contentSize.width = mainScrollView.frame.width * CGFloat(i + 1)
             mainScrollView.addSubview(imageView)
+//            imageIndicator.text = String(i) + "/3"
         }
         
     }
