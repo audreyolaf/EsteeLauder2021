@@ -24,6 +24,7 @@ class Scroll4ViewController: UIViewController {
         color3.layer.cornerRadius = 15
         color4.layer.cornerRadius = 15
         
+        // scroll view
         mainScrollView.frame = view.frame
         imageArray = [#imageLiteral(resourceName: "EL_29"), #imageLiteral(resourceName: "EL_18"), #imageLiteral(resourceName: "EL_18-1")]
         for i in 0..<imageArray.count {
@@ -37,16 +38,4 @@ class Scroll4ViewController: UIViewController {
             mainScrollView.addSubview(imageView)
         }
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

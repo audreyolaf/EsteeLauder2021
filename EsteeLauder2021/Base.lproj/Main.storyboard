@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Scroll View Controller-->
+        <!--Scroll1 View Controller-->
         <scene sceneID="wo8-sd-Rug">
             <objects>
-                <viewController id="IhW-UW-iqf" customClass="ScrollViewController" customModule="EsteeLauder2021" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="IhW-UW-iqf" customClass="Scroll1ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fRc-0d-Ouy">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -577,10 +577,10 @@ Stay-in-Place Foundation</string>
             </objects>
             <point key="canvasLocation" x="2598.5507246376815" y="-350.22321428571428"/>
         </scene>
-        <!--Second View Controller-->
+        <!--Shade Selector View Controller-->
         <scene sceneID="bZl-1W-sLd">
             <objects>
-                <viewController id="6Bx-Sy-zk0" customClass="SecondViewController" customModule="EsteeLauder2021" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="6Bx-Sy-zk0" customClass="ShadeSelectorViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fEJ-uQ-Brz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -729,9 +729,9 @@ Stay-in-Place Foundation</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="g9q-kl-Xkr"/>
-        <segue reference="8xW-Ak-hFl"/>
-        <segue reference="snh-gI-vhf"/>
+        <segue reference="gj5-Gr-NCt"/>
+        <segue reference="O2e-x3-wUr"/>
+        <segue reference="9mG-0C-dlt"/>
         <segue reference="TPY-TJ-tpW"/>
     </inferredMetricsTieBreakers>
     <resources>

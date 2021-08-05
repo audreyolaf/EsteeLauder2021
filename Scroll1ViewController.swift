@@ -14,17 +14,18 @@ class ScrollViewController: UIViewController {
     @IBOutlet weak var color3: UIButton!
     @IBOutlet weak var color4: UIButton!
     @IBOutlet weak var mainScrollView: UIScrollView!
-//    @IBOutlet weak var imageIndicator: UILabel!
+
     var imageArray = [UIImage]()
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        // shade circles
         color1.layer.cornerRadius = 15
         color2.layer.cornerRadius = 15
         color3.layer.cornerRadius = 15
         color4.layer.cornerRadius = 15
         
+        // scroll view
         mainScrollView.frame = view.frame
         imageArray = [#imageLiteral(resourceName: "EL_28"), #imageLiteral(resourceName: "EL_25"), #imageLiteral(resourceName: "EL_22-1")]
         for i in 0..<imageArray.count {

@@ -24,6 +24,7 @@ class Scroll2ViewController: UIViewController {
         color3.layer.cornerRadius = 15
         color4.layer.cornerRadius = 15
         
+        // scroll view
         mainScrollView.frame = view.frame
         imageArray = [#imageLiteral(resourceName: "EL_26"), #imageLiteral(resourceName: "EL_17"), #imageLiteral(resourceName: "EL_20-1")]
         for i in 0..<imageArray.count {
